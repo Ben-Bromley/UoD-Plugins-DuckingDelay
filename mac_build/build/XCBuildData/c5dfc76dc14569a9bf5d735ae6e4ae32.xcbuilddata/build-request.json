@@ -1,0 +1,96 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "caa03e6d51df81c26f403a0a898257fc47ca29ce58f0359c97ad6df73558385a"
+    },
+    {
+      "guid" : "caa03e6d51df81c26f403a0a898257fc9c095828d32f2e79b01db0e0514f5c9b"
+    },
+    {
+      "guid" : "caa03e6d51df81c26f403a0a898257fc97accec359d53b20415cc32ee75c6356"
+    },
+    {
+      "guid" : "caa03e6d51df81c26f403a0a898257fcbfe691edb6e0ccc2889a8c40e19b423e"
+    },
+    {
+      "guid" : "caa03e6d51df81c26f403a0a898257fc9ddbb3dec95fc692749c74d29229b5d6"
+    },
+    {
+      "guid" : "caa03e6d51df81c26f403a0a898257fc8616d22b4b93609b750f60eba8dfc01a"
+    },
+    {
+      "guid" : "caa03e6d51df81c26f403a0a898257fc86cdb63e4f7af1584abc46062f0bac8a"
+    },
+    {
+      "guid" : "caa03e6d51df81c26f403a0a898257fc7e3f3fbc113a10134e0e15bb6e24e9ba"
+    },
+    {
+      "guid" : "caa03e6d51df81c26f403a0a898257fc5c742356f4e17bfbe80b2ba3377ff2b1"
+    },
+    {
+      "guid" : "caa03e6d51df81c26f403a0a898257fcf5071fc21fc866540ea7ad015aae5504"
+    },
+    {
+      "guid" : "caa03e6d51df81c26f403a0a898257fc8cc4cb686debc14c6250a50d470a3d8a"
+    },
+    {
+      "guid" : "caa03e6d51df81c26f403a0a898257fcd2e174849aaa54d1281e90d3985d9758"
+    },
+    {
+      "guid" : "caa03e6d51df81c26f403a0a898257fcb2761c307774191a38095edb83a73e9b"
+    }
+  ],
+  "containerPath" : "/Users/benbromley/University/UoD/Modules/02 - Audio Software Engineering/Programming/ALL_SDK/projects/DuckingDelay/mac_build/DuckingDelay_UNIVERSAL.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "hostTargetedPlatform" : null,
+      "platform" : "macosx",
+      "sdk" : "macosx27.0",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/benbromley/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/benbromley/Library/Developer/Xcode/DerivedData/DuckingDelay_UNIVERSAL-bqrsfexmuxynwcbcsycnkulyxkmr/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/benbromley/Library/Developer/Xcode/DerivedData/DuckingDelay_UNIVERSAL-bqrsfexmuxynwcbcsycnkulyxkmr/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

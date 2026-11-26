@@ -11,20 +11,20 @@
 #define AU_COCOA_VIEW_STRING STR(AU_COCOA_VIEW_NAME)
 
 // --- AU Plugin Cocoa View Names (flat namespace) 
-#define AU_COCOA_VIEWFACTORY_NAME AUCocoaViewFactory_803DF3590FDE3F2A9E6DEC0FFDBBC3FA
-#define AU_COCOA_VIEW_NAME AUCocoaView_803DF3590FDE3F2A9E6DEC0FFDBBC3FA
+#define AU_COCOA_VIEWFACTORY_NAME AUCocoaViewFactory_2A4EB9C353883A92827B6DA174A87936
+#define AU_COCOA_VIEW_NAME AUCocoaView_2A4EB9C353883A92827B6DA174A87936
 
 // --- BUNDLE IDs (MacOS Only) 
-const char* kAAXBundleID = "developer.aax.testplutin.bundleID";
-const char* kAUBundleID = "developer.au.testplutin.bundleID";
-const char* kVST3BundleID = "developer.vst3.testplutin.bundleID";
+const char* kAAXBundleID = "developer.aax.duckingdelay.bundleID";
+const char* kAUBundleID = "developer.au.duckingdelay.bundleID";
+const char* kVST3BundleID = "developer.vst3.duckingdelay.bundleID";
 
 // --- Plugin Names 
-const char* kPluginName = "TEstPlutin";
-const char* kShortPluginName = "TEstPlutin";
-const char* kAUBundleName = "TEstPlutin_AU";
-const char* kAAXBundleName = "TEstPlutin_AAX";
-const char* kVSTBundleName = "TEstPlutin_VST";
+const char* kPluginName = "Ducking Delay";
+const char* kShortPluginName = "Ducking Delay";
+const char* kAUBundleName = "DuckingDelay_AU";
+const char* kAAXBundleName = "DuckingDelay_AAX";
+const char* kVSTBundleName = "DuckingDelay_VST";
 
 // --- bundle name helper 
 inline static const char* getPluginDescBundleName() 
@@ -49,27 +49,27 @@ inline static const char* getPluginDescBundleName()
 const pluginType kPluginType = pluginType::kFXPlugin;
 
 // --- VST3 UUID 
-const char* kVSTFUID = "{803df359-0fde-3f2a-9e6d-ec0ffdbbc3fa}";
+const char* kVSTFUID = "{2a4eb9c3-5388-3a92-827b-6da174a87936}";
 
 // --- 4-char codes 
-const int32_t kFourCharCode = 'PLUG';
-const int32_t kAAXProductID = 'plUg';
-const int32_t kManufacturerID = 'COMP';
+const int32_t kFourCharCode = 'DKDY';
+const int32_t kAAXProductID = 'DKDY';
+const int32_t kManufacturerID = 'BBPG';
 
 // --- Vendor information 
-const char* kVendorName = "ASPiK User";
-const char* kVendorURL = "www.yourcompany.com";
-const char* kVendorEmail = "help@yourcompany.com";
+const char* kVendorName = "BB Plugins";
+const char* kVendorURL = "www.benbromley.co.uk";
+const char* kVendorEmail = "plugins@benbromley.co.uk";
 
 // --- Plugin Options 
 const bool kProcessFrames = true;
 const uint32_t kBlockSize = DEFAULT_AUDIO_BLOCK_SIZE;
 const bool kWantSidechain = false;
 const uint32_t kLatencyInSamples = 0;
-const double kTailTimeMsec = 0.000000;
+const double kTailTimeMsec = 0;
 const bool kVSTInfiniteTail = false;
 const bool kVSTSAA = false;
-const uint32_t kVST3SAAGranularity = 0;
+const uint32_t kVST3SAAGranularity = 1;
 const uint32_t kAAXCategory = 0;
 
 #endif
